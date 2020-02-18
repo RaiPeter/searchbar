@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+	 box-sizing: border-box;
+}
+.container{
+	
+	height:auto;
+	text-align:center;
+}
+.header {
+	background-color:blue;
+	padding-top:20px;
+	padding-bottom:10px;
+	text-shadow:10px 0px 10px grey;
+	box-shadow:0px 0px 10px  black;
+}
+ h1{
+	letter-spacing:20px;
+}
+.googleSearch, .musicSearch, .flightSearch{
+	padding-top:18px;
+	
+}
+.googleSearch{
+	border-bottom:1px solid black;
+	position:relative;
+	 
+	height:170px;	
+}
+.musicSearch{
+	border-bottom:1px solid black;
+	height:190px;
+}
+.flightSearch{
+	border-bottom:1px solid black;
+	height:220px;
+}
+.googleControl, .musicControl, .flightControl{
+	margin:0px auto;
+	width:600px;
+	padding:0px 50px;
+	
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+	
+}
+input[type="text"]{
+margin-bottom:40px;
+font-size:20px;
+border:none;
+border-radius:30px;
+padding: 10px 10px;
+outline:none;
+box-shadow:0px 0px 20px grey;
+text-align:center;
+color:blue;
+border-right: 1px black solid;
+border-left: 1px black solid;
+}
+input[type="submit"]:hover{
+	background-color:rgba(18, 24, 110, 0.658);
+}
+input[type="submit"]{
+	width:110px;
+	font-size:20px;
+	border-radius:30px;
+		text-shadow:10px 0px 10px grey;
+		letter-spacing:3px;
+	outline:none;
+	padding: 5px 10px;
+	border:none;
+	box-shadow:0px 0px 20px grey;
+	margin-bottom:20px;
+	background-color:blue;
+}
+input[type="date"]{
+	outline:none;
+	width:200px;
+	border-right: 1px black solid;
+border-left: 1px black solid;
+	border:none;
+	font-size:20px;
+	color:grey;
+	text-align:center;
+		border-radius:30px;
+	box-shadow:0px 0px 20px grey;
+		margin-bottom:20px;
+}

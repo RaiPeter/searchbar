@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Bar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+<h1>FULLSTACK SEARCH ENGINE</h1>
+</div>
+
+<div class="googleSearch">
+<div class="googleControl">
+<form action="SearchBar">
+<input type="text" name="googleSearch" placeholder="Search on google..."/><br/>
+<input class="btn"  type="submit" value="Find"/>
+</form>
+</div>
+</div>
+
+<div class="musicSearch">
+<div class="musicControl">
+<form action="SearchBar">
+<input type="text" name="musicSearch" placeholder="Search for music..."/><br/>
+<span id="music" style="display:none;">Enter something...</span><br/>
+<input class="btn"  type="submit" value="Listen"/>
+</form>
+</div>
+</div>
+
+<div class="flightSearch">
+<div class="flightControl">
+<form action="SearchBar">
+<input type="text" name="flightSearchFrom" size="10" placeholder="From..."/>
+<input type="text" name="flightSearchDestination" size="10" placeholder="Destination..."/>
+<input type="date" name="flightSearchDate" size="10" />
+<br/>
+<input class="btn"  type="submit" value="Fly"/>
+</form>
+</div>
+</div>
+
+</div>
+</body>
+</html>
